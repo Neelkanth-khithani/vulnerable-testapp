@@ -17,4 +17,4 @@ def get_aws_credentials():
         'secret': config['AWS']['SECRET_KEY']
     }
 
-# Change 1
+# Change 2
