@@ -4,8 +4,6 @@ import os
 import subprocess
 from utils import get_db_connection
 
-# Change 8
-
 app = Flask(__name__)
 
 DB_USER = "admin"
