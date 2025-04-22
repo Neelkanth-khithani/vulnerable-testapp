@@ -4,12 +4,12 @@ import os
 import subprocess
 from utils import get_db_connection
 
-# Change 7
+# Change 8
 
 app = Flask(__name__)
 
 DB_USER = "admin"
-DB_PASS = "SuperSecretPassword123"
+DB_PASS = "SuperSecretPassword1234"
 
 @app.route('/')
 def index():
