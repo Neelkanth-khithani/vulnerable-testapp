@@ -7,7 +7,7 @@ from utils import get_db_connection
 app = Flask(__name__)
 
 DB_USER = "admin"
-DB_PASS = "SuperSecretPassword1234"
+DB_PASS = "SuperSecretPassword12345"
 
 @app.route('/')
 def index():
